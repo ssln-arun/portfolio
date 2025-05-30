@@ -21,16 +21,16 @@ const Projects = ({openModal,setOpenModal}) => {
             <ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
           }
           <Divider />
-          {toggle === 'web app' ?
-            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>WEB</ToggleButton>
+          {toggle === 'react app' ?
+            <ToggleButton active value="react app" onClick={() => setToggle('react app')}>REACT</ToggleButton>
             :
-            <ToggleButton value="web app" onClick={() => setToggle('web app')}>WEB APPS</ToggleButton>
+            <ToggleButton value="react app" onClick={() => setToggle('react app')}>REACT Applications</ToggleButton>
           }
           <Divider />
-          {toggle === 'android app' ?
-            <ToggleButton active value="android app" onClick={() => setToggle('fullstack app')}>FULL STACK</ToggleButton>
+          {toggle === 'mern-stack app' ?
+            <ToggleButton active value="mern-stack app" onClick={() => setToggle('mern-stack app')}>MERN-STACK</ToggleButton>
             :
-            <ToggleButton value="android app" onClick={() => setToggle('fullstack app')}>FULL-STACK APPS</ToggleButton>
+            <ToggleButton value="mern-stack app" onClick={() => setToggle('mern-stack app')}>MERN-STACK APPLICATIONS</ToggleButton>
           }
           {/*
           <Divider />

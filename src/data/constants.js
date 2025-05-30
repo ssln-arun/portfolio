@@ -1,16 +1,14 @@
 export const Bio = {
-  name: "Arunagiri Sivashanmugam",
+  name: "Arunagiri S",
   roles: [
-    "Full Stack Developer",
     "MERN Stack Developer",
-    "Python Developer",
-    "Programmer",
+    "Python Programmer",
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/ssln-arun/",
   resume:
-    "https://drive.google.com/file/d/1ufi7t88TNH8c07xYABam2zT5AS32BcXo/view?usp=drive_link",
+    "https://drive.google.com/file/d/1aYJMMbolg8ywf9UCdlrC4TmLd5AH5yfv/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/ssln-arun/",
   github: "https://github.com/ssln-arun/",
 };
@@ -64,11 +62,11 @@ export const skills = [
     title: "Backend",
     skills: [
       {
-        name: "Node Js",
+        name: "Node.js",
         image: "https://static-00.iconduck.com/assets.00/node-js-icon-1817x2048-g8tzf91e.png",
       },
       {
-        name: "Express Js",
+        name: "Express.js",
         image:
           "https://logowik.com/content/uploads/images/express-js1720895497.logowik.com.webp",
       },
@@ -245,8 +243,8 @@ export const education = [
     img: "https://media.licdn.com/dms/image/v2/C560BAQE1Qed7IF2Jzg/company-logo_200_200/company-logo_200_200/0/1639066812484?e=2147483647&v=beta&t=hhRZs1FNIlMWZ-6B-VUllYkvzDRaH9Xu2D5WBgaiGk4",
     school: "Coimbatore Institute of Engineering and Technology, Coimbatore",
     date: "2021 - 2025",
-    grade: "7.40 CGPA",
-    desc: "I completed my Bachelor’s degree in Computer Science and Engineering from Coimbatore Institute of Engineering and Technology, Coimbatore, in 2025 (batch 2021–2025). My studies covered Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks. Additionally, I completed courses in Full Stack Development and Data Structures & Algorithms, and contributed to open-source projects.",
+    grade: "7 CGPA",
+    desc: "I completed my Bachelor’s degree in Computer Science and Engineering from Coimbatore Institute of Engineering and Technology, Coimbatore, Tamil Nadu, (batch 2021–2025). My studies covered Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks. Additionally, I completed courses in Full Stack Development and Data Structures & Algorithms, and contributed to open-source projects.",
     degree: "Bachelor of Engineering - BE, Computer Science and Engineering",
   },
   {
@@ -256,7 +254,7 @@ export const education = [
     date: "MAY 2021",
     grade: "78%",
     desc: "I completed my Class 12 education at Bhagavan Shree Ramakrishna Paramahamsa Matric Higher Secondary School, Hosur, specializing in Mathematics and Computer Science.",
-    degree: "HSC(XII), Science with Computer",
+    degree: "HSC(XII), Mathematics and Computer Science",
   },
   {
     id: 2,
@@ -264,8 +262,8 @@ export const education = [
     school: "Bhagavan shree Ramakrishna Paramahamsa Matric Higher Secondary School, Hosur",
     date: "MAR 2019",
     grade: "70.2%",
-    desc: "I completed my Class 10 education at Bhagavan Shree Ramakrishna Paramahamsa Matric Higher Secondary School, Hosur, specializing in Science and Mathematics.",
-    degree: "SSLC(X), Science with Computer",
+    desc: "I completed my Class 10 education at Bhagavan Shree Ramakrishna Paramahamsa Matric Higher Secondary School, Hosur, specializing in Mathematics and Science.",
+    degree: "SSLC(X), Mathematics and Science",
   },
 ];
 
@@ -285,72 +283,72 @@ export const projects = [
       "Express.js",
       "MongoDB",
     ],
-    category: "fullstack app",
+    category: "mern-stack app",
     github: "https://github.com/ssln-arun/mern-authentication",
     webapp: "https://ssln-arun.github.io/mern-authentication/"
   },
   {
     id: 1,
     title: "Task Manager",
-    date: "Jan 2025 - Mar 2025",
+    date: "Oct 2024 - Dec 2024",
     description:
       "MERN stack Task Manager enabling users to add, edit, delete, and filter tasks by priority and status for efficient task management. Designed with a clean interface for seamless use across devices.",
     image:
       "https://i.postimg.cc/GhHKz3Hg/Screenshot-2025-05-21-221343.png",
     tags: ["React", "Node.js", "Express.js", "MongoDB"],
-    category: "fullstack app",
+    category: "mern-stack app",
     github: "https://github.com/ssln-arun/task-manager",
     webapp: "https://ssln-arun.github.io/task-manager/",
   },
   {
     id: 2,
     title: "Weather Forecast",
-    date: "Dec 2024 - Jan 2025",
+    date: "Sep 2024 - Oct 2024",
     description:
       "A weather forecast application built with React that fetches real time weather data from the OpenWeatherMap API, providing accurate and up to date weather information.",
     image:
       "https://i.postimg.cc/hPvJdffv/Screenshot-2025-05-22-090447.png",
     tags: ["React", "OpernWeatherMap API", "Axios"],
-    category: "web app",
+    category: "react app",
     github: "https://github.com/ssln-arun/weather-forecast",
     webapp: "https://ssln-arun.github.io/weather-forecast/",
   },
   {
     id: 3,
+    title: "Calculator",
+    date: "Aug 2024 - Sep 2024",
+    description:
+      "A sleek and responsive calculator built with React, TypeScript, and Tailwind CSS, focusing on clean UI, component architecture, and efficient state management.",
+    image:
+      "https://i.postimg.cc/RF0xwRdr/Screenshot-2025-05-30-101642.png",
+    tags: ["React", "TypeScript", "Tailwind CSS"],
+    category: "react app",
+    github: "https://github.com/ssln-arun/react-calculator",
+    webapp: "https://ssln-arun.github.io/react-calculator/",
+  },
+    {
+    id: 4,
     title: "To-Do List",
-    date: "Nov 2024 - Dec 2024",
+    date: "Jul 2024 - Aug 2024",
     description:
       "Todo List built with React, featuring intuitive task management including adding, deleting, and rearranging tasks. The app is designed to work smoothly across all devices.",
     image:
       "https://i.postimg.cc/85rGGg51/Screenshot-2025-05-22-202311.png",
     tags: ["React", "HTML5", "CSS3", "JavaScript"],
-    category: "web app",
+    category: "react app",
     github: "https://github.com/ssln-arun/react-todolist",
     webapp: "https://ssln-arun.github.io/react-todolist/",
   },
   {
-    id: 4,
-    title: "Calculator",
-    date: "Oct 2024 - Nov 2024",
-    description:
-      "A sleek and responsive calculator built with React, TypeScript, and Tailwind CSS, focusing on clean UI, component architecture, and efficient state management.",
-    image:
-      "https://i.postimg.cc/dtLyjJ1c/Screenshot-2025-05-22-224236.png",
-    tags: ["React", "TypeScript", "Tailwind CSS"],
-    category: "web app",
-    github: "https://github.com/ssln-arun/react-calculator",
-    webapp: "https://ssln-arun.github.io/react-calculator/",
-  },
-  {
     id: 5,
     title: "YouTube Clone",
-    date: "Jun 2021",
+    date: "Jun 2024",
     description:
       "A clean and fully responsive YouTube Clone user interface built purely with HTML and CSS, focusing on replicating YouTube’s homepage layout, styling, and mobile responsiveness.",
     image:
       "https://i.postimg.cc/W3DtLscL/Screenshot-2025-05-20-225321.png",
     tags: ["HTML5", "CSS3"],
-    category: "web app",
+    category: "",
     github: "https://github.com/ssln-arun/youtube-clone",
     webapp: "https://ssln-arun.github.io/youtube-clone/"
   },

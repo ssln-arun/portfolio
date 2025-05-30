@@ -114,7 +114,7 @@ export const Img = styled.img`
 
 export const Title = styled.div`
   font-weight: 700;
-  font-size: 39px;
+  font-size: 50px;
   color: ${({ theme }) => theme.text_primary};
   line-height: 68px;
   @media (max-width: 960px) {
@@ -130,7 +130,7 @@ export const Title = styled.div`
 
 export const TextLoop = styled.div`
   font-weight: 600;
-  font-size: 30px;
+  font-size: 32px;
   display: flex;
   gap: 12px;
   color: ${({ theme }) => theme.text_primary};
@@ -151,7 +151,7 @@ export const Span = styled.span`
 `;
 
 export const SubTitle = styled.div`
-  font-size: 18px;
+  font-size: 20px;
   line-height: 32px;
   margin-bottom: 42px;
   color: ${({ theme }) => theme.text_primary + 95};
