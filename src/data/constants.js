@@ -8,7 +8,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/ssln-arun/",
   resume:
-    "https://drive.google.com/file/d/1GlsY1WdbQDiboHGKmoPFEb60-l2gdO6W/view?usp=sharing",
+    "https://drive.google.com/file/d/1g8CLWo-aCn2vl_mbb-qatx3DjnBWUX2k/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/ssln-arun/",
   github: "https://github.com/ssln-arun/",
 };
@@ -18,7 +18,7 @@ export const skills = [
     title: "Frontend",
     skills: [
       {
-        name: "React Js",
+        name: "React.js",
         image:
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
@@ -97,29 +97,24 @@ export const skills = [
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       },
       {
+        name: "npm",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyhSQ7g_ibl5aC2yPJG9DwM8KdvZOp4mLOH6eUcnjTouqaQDGiOTxx11DbQASzqj7_PNg&usqp=CAU",
+      },
+      {
+        name: "nodemon",
+        image:
+          "https://images.seeklogo.com/logo-png/27/2/nodemon-logo-png_seeklogo-273752.png",
+      },
+      {
         name: "Postman",
         image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-TB9d5YXwtKhv4NWbpeTBVveYvcxu9gMJng&shttps://w7.pngwing.com/pngs/28/245/png-transparent-postman-hd-logo-thumbnail.pnghttps://w7.pngwing.com/pngs/28/245/png-transparent-postman-hd-logo-thumbnail.png",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLy5Y0NXizeOtxiZEXmpc7opgc9ByeIQSvQg&s",
       },
       {
         name: "Figma",
         image:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzTAhPw0jBqCzRdoWb1EVtMDJVzULD31x6GRNkKvgU8Ylx6qZ2mHWv2sNEuv4KudwOQVg&usqp=CA",
-      },
-      {
-        name: "VS Code",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-      },
-      {
-        name: "WebStorm",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp9FTiaJcRjZ9WMFpZ1pqzlXNS5ohpEcoHaQ&s",
-      },
-      {
-        name: "PyCharm",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/PyCharm_Icon.svg/1024px-PyCharm_Icon.svg.png",
       },
       {
         name: "Vercel",
@@ -153,7 +148,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4iRak71oeRbFQVd1g8WmnS--qUd94ef4ZEw&s",
+    img: "https://i.postimg.cc/5NWNHtcD/coursera-logo.png",
     role: "Divide and Conquer, Sorting and Searching, and Randomized Algorithms",
     company: "",
     date: "May 2025",
@@ -171,7 +166,7 @@ export const experiences = [
   },
   {
     id: 1,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4iRak71oeRbFQVd1g8WmnS--qUd94ef4ZEw&s",
+    img: "https://i.postimg.cc/5NWNHtcD/coursera-logo.png",
     role: "Graph Search, Shortest Paths, and Data Structures",
     company: "",
     date: "May 2025",
@@ -190,7 +185,7 @@ export const experiences = [
   },
   {
     id: 2,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIdlhRmNfCWg5IYxkL726oQJfOsvLJZQzNlw&s",
+    img: "https://i.postimg.cc/5NWNHtcD/coursera-logo.png",
     role: "Programming with JavaScript",
     company: "",
     date: "Jan 2024",
@@ -206,7 +201,7 @@ export const experiences = [
   },
   {
     id: 3,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIdlhRmNfCWg5IYxkL726oQJfOsvLJZQzNlw&s",
+    img: "https://i.postimg.cc/5NWNHtcD/coursera-logo.png",
     role: "React Basics",
     company: "",
     date: "Oct 2024",
@@ -221,7 +216,7 @@ export const experiences = [
   },
   {
     id: 4,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIdlhRmNfCWg5IYxkL726oQJfOsvLJZQzNlw&s",
+    img: "https://i.postimg.cc/5NWNHtcD/coursera-logo.png",
     role: "Advanced React",
     company: "",
     date: "Dec 2024",
@@ -294,7 +289,7 @@ export const projects = [
     description:
       "MERN stack Task Manager enabling users to add, edit, delete, and filter tasks by priority and status for efficient task management. Designed with a clean interface for seamless use across devices.",
     image:
-      "https://i.postimg.cc/GhHKz3Hg/Screenshot-2025-05-21-221343.png",
+      "https://i.postimg.cc/C5z2q4Mh/Screenshot-2025-06-08-135233.png",
     tags: ["React", "Node.js", "Express.js", "MongoDB"],
     category: "mern-stack app",
     github: "https://github.com/ssln-arun/task-manager",
@@ -333,7 +328,7 @@ export const projects = [
     description:
       "Todo List built with React, featuring intuitive task management including adding, deleting, and rearranging tasks. The app is designed to work smoothly across all devices.",
     image:
-      "https://i.postimg.cc/85rGGg51/Screenshot-2025-05-22-202311.png",
+      "https://i.postimg.cc/DfY5Xn3c/p2.png",
     tags: ["React", "HTML5", "CSS3", "JavaScript"],
     category: "react app",
     github: "https://github.com/ssln-arun/react-todolist",
