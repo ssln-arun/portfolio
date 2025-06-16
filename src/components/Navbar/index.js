@@ -42,7 +42,7 @@ const Navbar = () => {
             }}>Skills</MobileLink>
             <MobileLink href='#certifications' onClick={() => {
               setIsOpen(!isOpen)
-            }}>Experience</MobileLink>
+            }}>Certifications</MobileLink>
             <MobileLink href='#projects' onClick={() => {
               setIsOpen(!isOpen)
             }}>Projects</MobileLink>

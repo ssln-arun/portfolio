@@ -147,24 +147,6 @@ export const skills = [
 
 export const experiences = [
   {
-    id: 0,
-    img: "https://i.postimg.cc/5NWNHtcD/coursera-logo.png",
-    role: "Divide and Conquer, Sorting and Searching, and Randomized Algorithms",
-    company: "",
-    date: "May 2025",
-    desc: "Studied core algorithms like divide and conquer, sorting, searching, and randomized methods, focusing on efficiency and problem solving using mathematical analysis.",
-    skills: [
-      "Algorithm Design",
-      "Divide and Conquer Strategies",
-      "Sorting & Searching Algorithms",
-      "Randomized Algorithms",
-      "Mathematical Analysis",
-      "Programming Fundamentals",
-      "Theoretical Computer Science",
-    ],
-    doc: "https://i.postimg.cc/SNgPYvrL/Screenshot-2025-05-23-102038.png",
-  },
-  {
     id: 1,
     img: "https://i.postimg.cc/5NWNHtcD/coursera-logo.png",
     role: "Graph Search, Shortest Paths, and Data Structures",
@@ -184,35 +166,22 @@ export const experiences = [
     doc: "https://i.postimg.cc/pXc0LnWq/Screenshot-2025-05-23-102128.png",
   },
   {
-    id: 2,
+    id: 0,
     img: "https://i.postimg.cc/5NWNHtcD/coursera-logo.png",
-    role: "Programming with JavaScript",
+    role: "Divide and Conquer, Sorting and Searching, and Randomized Algorithms",
     company: "",
-    date: "Jan 2024",
-    desc: "Applied programming principles and OOP to build and debug JavaScript applications, with unit testing using Jest and JSON integration.",
+    date: "May 2025",
+    desc: "Studied core algorithms like divide and conquer, sorting, searching, and randomized methods, focusing on efficiency and problem solving using mathematical analysis.",
     skills: [
-      "JavaScript",
-      "Object-Oriented Programming (OOP)",
-      "JSON Data Handling",
-      "Unit Testing with Jest",
-      "Debugging & Troubleshooting"
+      "Algorithm Design",
+      "Divide and Conquer Strategies",
+      "Sorting & Searching Algorithms",
+      "Randomized Algorithms",
+      "Mathematical Analysis",
+      "Programming Fundamentals",
+      "Theoretical Computer Science",
     ],
-    doc: "https://i.postimg.cc/SKB3NYGw/Screenshot-2025-05-23-102007.png",
-  },
-  {
-    id: 3,
-    img: "https://i.postimg.cc/5NWNHtcD/coursera-logo.png",
-    role: "React Basics",
-    company: "",
-    date: "Oct 2024",
-    desc: "Built dynamic user interfaces using React fundamentals, including components, props, state, and basic event handling.",
-    skills: [
-      "React Components",
-      "State & Props Management",
-      "Event Handling in React",
-      "Building Interactive UI"
-    ],
-    doc: "https://i.postimg.cc/Ls9MF1Nv/Screenshot-2025-05-23-101703.png",
+    doc: "https://i.postimg.cc/SNgPYvrL/Screenshot-2025-05-23-102038.png",
   },
   {
     id: 4,
@@ -229,6 +198,37 @@ export const experiences = [
       "Modern Web Development Tools"
     ],
     doc: "https://i.postimg.cc/GhKWJ2cy/Screenshot-2025-05-23-101914.png",
+  },
+  {
+    id: 3,
+    img: "https://i.postimg.cc/5NWNHtcD/coursera-logo.png",
+    role: "React Basics",
+    company: "",
+    date: "Oct 2024",
+    desc: "Built dynamic user interfaces using React fundamentals, including components, props, state, and basic event handling.",
+    skills: [
+      "React Components",
+      "State & Props Management",
+      "Event Handling in React",
+      "Building Interactive UI"
+    ],
+    doc: "https://i.postimg.cc/Ls9MF1Nv/Screenshot-2025-05-23-101703.png",
+  },
+    {
+    id: 2,
+    img: "https://i.postimg.cc/5NWNHtcD/coursera-logo.png",
+    role: "Programming with JavaScript",
+    company: "",
+    date: "Jan 2024",
+    desc: "Applied programming principles and OOP to build and debug JavaScript applications, with unit testing using Jest and JSON integration.",
+    skills: [
+      "JavaScript",
+      "Object-Oriented Programming (OOP)",
+      "JSON Data Handling",
+      "Unit Testing with Jest",
+      "Debugging & Troubleshooting"
+    ],
+    doc: "https://i.postimg.cc/SKB3NYGw/Screenshot-2025-05-23-102007.png",
   },
 ];
 
